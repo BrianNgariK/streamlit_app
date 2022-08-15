@@ -47,7 +47,7 @@ except URLError as e:
 #streamlit.text(fruityvice_response.json())
 
 # put the json data into a pandas dataframe
-fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
+#fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 
 #Snowflake related functions
 def get_fruit_load_list():
